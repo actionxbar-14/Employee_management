@@ -1,11 +1,14 @@
 import React from 'react'
+import Login from './components/Auth/Login'
+import EmployeeDashboard from './components/Dashboard/EmployeeDashboard'
 
 const App = () => {
   return (
-    <div>
-      <h1 className='bg-blue-500'>My React App</h1>
-      
-    </div>
+    <>
+      {/* <Login/> */}
+      <EmployeeDashboard/>
+
+    </>
   )
 }
 
